@@ -19,8 +19,12 @@ body, html{
 padding -> element ki andar ki space*/
 
 #main{
-    height: 90px;
+    /* height: 90px;
     width: 90px;
     background-color: bisque;
-    margin: 20px 45px 12px 5px;
+    margin: 20px 45px 12px 5px; */
+    height: 50%;
+    width: 20%;
+    background-color: aqua;
+    padding: 20px;
 }
