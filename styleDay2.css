@@ -23,8 +23,28 @@ padding -> element ki andar ki space*/
     width: 90px;
     background-color: bisque;
     margin: 20px 45px 12px 5px; */
-    height: 50%;
-    width: 20%;
-    background-color: aqua;
-    padding: 20px;
+    height: 100%;
+    width: 100%;
+   
+}
+
+#car1{
+position: absolute;
+ height: 120px;
+ width: 98px;
+ background-color: red;
+}
+
+#car2{
+position: absolute;
+ height: 140px;
+ width: 108px;
+ background-color: rgb(0, 208, 255);
+}
+
+#car3{
+
+height: 180px;
+width: 159px;
+background-color: blue;
 }
