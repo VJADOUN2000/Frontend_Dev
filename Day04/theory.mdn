@@ -4,3 +4,7 @@ vw->  viewport width (Depends on the screen width)
 
 vh -> viewport height (Depends on the screen height)
 
+em -> give parent fontsize value and then give all saare childs value in em and then you can chnage value of saare childs at once by chnaging parent font size
+
+rem -> it is 16px (according to the root)
+
