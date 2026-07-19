@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+/* h1{
+    font-size: 36px;
+    width: 10ch;
+}
+
+.p2{
+    margin-top: 2lh;
+    font-size: 25px;   
+    color: aqua;
+} */
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+#child1{
+    height: 110px;
+    width: 190px;
+    background-color: aqua;
+}
+
+#child2{
+    height: 110px;
+    width: 190px;
+    background-color: rgb(71, 184, 34);
+}
+
+#child3{
+    height: 110px;
+    width: 190px;
+    background-color: rgb(250, 88, 91);
+}

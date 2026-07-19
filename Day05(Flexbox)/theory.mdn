@@ -1,0 +1,10 @@
+understanding units like ch and lh
+
+CSS is case insensitive
+
+ch -> it is used to tell how many characters can be in a single line and put others in second line
+
+ln -> It is used for spacing betwwen sections or any content like lh -> space of  line between sections (margin top)
+
+<-------------------Flexbox------------------------------>
+
