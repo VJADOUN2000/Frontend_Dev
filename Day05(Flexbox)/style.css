@@ -28,23 +28,26 @@ body, html{
     align-items: flex-start;
     justify-content: space-evenly;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
+
 }
 
 #child1{
     height: 110px;
     width: 190px;
     background-color: aqua;
+    flex-shrink: 1;
 }
 
 #child2{
     height: 110px;
     width: 190px;
     background-color: rgb(71, 184, 34);
+    flex-shrink: 1;
 }
 
 #child3{
     height: 110px;
     width: 190px;
     background-color: rgb(250, 88, 91);
+    flex-shrink: 5;
 }

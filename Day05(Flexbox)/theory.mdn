@@ -8,3 +8,7 @@ ln -> It is used for spacing betwwen sections or any content like lh -> space of
 
 <-------------------Flexbox------------------------------>
 
+flex-wrap: nowrap --> put all element in one line
+
+flex-shrink: 2; (should use with flex-wrap)
+
