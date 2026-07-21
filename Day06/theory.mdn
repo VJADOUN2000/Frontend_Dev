@@ -1,0 +1,8 @@
+make a simple nav bar and can practice apple navigation bar
+
+<------------------Display Grid---------------------->
+
+display: flex -> is is udes for or aplly on one dimension at a time like main or cross and it is used for smaller layout (like nav or section)
+
+display: gid -> it is more advance version of display flex we can both axis and use for larger layout like dashboard layout
+
