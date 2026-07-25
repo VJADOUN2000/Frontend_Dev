@@ -7,5 +7,43 @@ body, html{
     height: 100%;
     width: 100%;
     box-sizing: border-box;
+    background-color: #111;
+    color: rgb(223, 220, 220);
+    font-family: sans-serif;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 50px;
+    font-size: 15px;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: #0C0C0C;
+    border:1px solid rgb(77, 77, 77);
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+.nav1 img{
+    width: 180px;
+}
+
+nav button{
+    background-color: #2e2e2e;
+    color: aliceblue;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: solid 0.5px rgb(147, 146, 145)
+}
+
+nav h5{
+    display: none;
+}
