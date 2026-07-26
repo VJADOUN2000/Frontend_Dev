@@ -53,3 +53,18 @@ nav button{
 nav h5{
     display: none;
 }
+
+@media (max-width:868px){
+    nav .nav2{
+        display: none;
+    }
+    nav button{
+        display: none;
+    }
+
+    nav h5{
+        display: inline;
+        font-size: 24px;
+    }
+}
+
