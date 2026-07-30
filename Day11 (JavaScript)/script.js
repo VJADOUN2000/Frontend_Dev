@@ -7,8 +7,8 @@ console.log("Starting JS!")
 // var, let, const
 
 
-var a = 12
-var a = 56 // show no error weven a is already declare and initization
+var ab = 12
+var ab = 56 // show no error weven a is already declare and initization
 
 //===================================//
 
@@ -16,3 +16,11 @@ let b =23;
 let b =28; //-> Give SyntaxError as b is already declared
 
 const discount = 32 // => can not change
+
+
+// =====Scope (block, functional, global)
+
+function abcd(){
+    var a  =45;
+
+}
