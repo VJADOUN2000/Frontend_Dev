@@ -5,10 +5,14 @@ console.log("Starting JS!")
 //variables and declaration 
 
 // var, let, const
-a =12;
-var a; // declaration 
-var a =12; // declaration and initialization
-let c= 12;
-let c;
-const b=45;
 
+
+var a = 12
+var a = 56 // show no error weven a is already declare and initization
+
+//===================================//
+
+let b =23;
+let b =28; //-> Give SyntaxError as b is already declared
+
+const discount = 32 // => can not change
