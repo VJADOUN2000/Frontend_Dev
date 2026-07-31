@@ -29,6 +29,26 @@ function abcd(){
 //Temporal Dead Zone
 
 
-console.log(a)
-let a =45;
+// console.log(a)
+// let a =45;
+
+//================================================//
+
+//hoisting impact per type
+
+//hoisting -> ek variable kab banta hai to vo do hisso mei tu jaata hai and uska declare wala part upar chala jaata hai aur inititlization wala neeche rah jaata hai
+
+// Example var name = "Vikrant";
+
+console.log(name)
+
+var name = 45;
+
+console.log(h1)
+let h1 = 12;
+
+// var -> hoisting -> undefned
+//let -> hoisting -> X
+//const -> hoisting -> X
+
 
