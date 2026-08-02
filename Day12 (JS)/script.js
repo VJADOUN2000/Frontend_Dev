@@ -70,6 +70,17 @@ let num =9007199254740991n
 
 num + 7n // only add bigint with bigint
 
+// dynamic typing -> js mei static typing nahi hai, Dynamic typing hai matlab app data ko chnage kar sakte hu 
+
+//Example
+
+let data = "Vikrant";
+data = 24;
+data = true;
+data= []
+data = Symbol("yes")
+data= [45,87,98]
+
 
 
 
