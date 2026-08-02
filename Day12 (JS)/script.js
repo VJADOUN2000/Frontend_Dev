@@ -50,9 +50,27 @@ console.log(asd)
 
 //future mei hum use karegay labraries, usme hoti hai kuch fields or ab hum be kabhi similar fields bana dede hai or vo fields libraries ki original fileds ko rplace kar deti hai
 
-let u1 = Symbol("uid");
+//let u1 = Symbol("uid");
 
-let u2 = Symbol("uid");
+//let u2 = Symbol("uid");
+
+let obj ={
+    uid: 12,
+    Name: 'Vikrant',
+    age: 24,
+    email: 'jadounvikrant@gmail.com'
+}
+
+let u1 = Symbol("uid");
+ obj[u1] = 45;
+
+// BigInt
+
+let num =9007199254740991n
+
+num + 7n // only add bigint with bigint
+
+
 
 
 
