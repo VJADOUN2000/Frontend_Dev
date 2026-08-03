@@ -95,6 +95,15 @@ data= [45,87,98]
 
 // rest => true
 
+// practice Questions
+
+// true + false =>  1
+//null + 1 => 1
+//!!undefined => false
+
+// 2* "Vikrant" => NaNd
+
+
 
 
 
