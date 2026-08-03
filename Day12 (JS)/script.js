@@ -91,6 +91,9 @@ data= [45,87,98]
 //  Type Coercion (== vs ===)
 // truthy vs falsy valves
 
+// false => 0, "" null, undefined,document.all, NaN
+
+// rest => true
 
 
 
