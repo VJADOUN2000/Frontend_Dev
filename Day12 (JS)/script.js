@@ -82,6 +82,15 @@ data = Symbol("yes")
 data= [45,87,98]
 
 
+// typeof quirks (e.g., typeof null == 'object')
+
+//NaN ==NaN   => False
+
+// [] + [] = ''  => empty string
+
+//  Type Coercion (== vs ===)
+// truthy vs falsy valves
+
 
 
 
