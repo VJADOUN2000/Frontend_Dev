@@ -1,0 +1,16 @@
+// if else else-if
+//switch case
+// early return  pattern
+
+// let mark =56;
+
+function getVal(mark){
+
+if(mark<25) return 'E';
+else if(mark<30) return "D";
+else if (mark<50) return "C";
+else if(mark<75) return "B";
+else return "A";
+}
+
+console.log(getVal(7));
