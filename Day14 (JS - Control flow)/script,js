@@ -27,4 +27,16 @@ function getGrade(score){
     else return "Invalid marks"
 }
 
-console.log(getGrade(687))
+console.log(getGrade(687));
+
+
+//rock paper-scissors logic
+
+function rps(user, computer){
+    if(user =="rock" && computer =="scissor") return "User Win";
+    else if(user =="paper" && computer =="rock") return "User Win";
+    else if (user =="scissor" && computer =="paper") return "User Win";
+    return "Computer Wins"
+}
+
+console.log(rps("paper","scissor"));
