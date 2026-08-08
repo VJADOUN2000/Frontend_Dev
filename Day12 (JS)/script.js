@@ -101,7 +101,7 @@ data= [45,87,98]
 //null + 1 => 1
 //!!undefined => false
 
-// 2* "Vikrant" => NaNd
+// 2* "Vikrant" => NaN
 
 
 
