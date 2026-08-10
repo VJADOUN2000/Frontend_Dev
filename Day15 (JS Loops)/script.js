@@ -33,3 +33,13 @@ do{
   j++
 }
 while(j<8);
+
+// break and continue
+
+for(let i=5;i<15;i++){
+    
+    if(i==7){
+        continue; // we skip and move to next number 
+    }
+    console.log(i);
+}
