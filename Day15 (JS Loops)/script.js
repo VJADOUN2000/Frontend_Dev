@@ -71,11 +71,39 @@ for(let i=1;i<21;i++){
 //Q4. Print Odd number from 1 to 15 using while loop
 
 let c=1;
-while(i<16){
-    if(i%2==0){
-        //continue;
+while(c<16){
+    if(c%2==1){
+       console.log(c);   
     }
-    else{
-        console.log(c);
+    c++;
+}
+
+// Q5. Print table of 5 
+
+for(let i=1;i<11;i++){
+    console.log(`5 x ${i} = ${i*5}`);
+}
+
+// Q6. Sume from 1 to 100 using a loop
+
+let sum =0;
+for(let i =1;i<101;i++){
+    sum =sum+i;
+}
+
+console.log(sum);
+
+// Q7. Print number from 1 to 50 divisible by 3
+
+for(let i=1;i<51;i++){
+    if(i%3==0){
+        console.log(i);
     }
+}
+
+//Q8. Take number form user and also tell for 1 to this number is even or odd
+
+let num = prompt("enter any Number");
+while(1<=num){
+    if()
 }
