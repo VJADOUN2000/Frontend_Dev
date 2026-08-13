@@ -99,11 +99,18 @@ for(let i=1;i<51;i++){
     if(i%3==0){
         console.log(i);
     }
-}
 
-//Q8. Take number form user and also tell for 1 to this number is even or odd
+
+//Q8. Take number from user and also tell for 1 to this number is even or odd
 
 let num = prompt("enter any Number");
-while(1<=num){
-    if()
+let ai=1;
+while(ai<=num){
+    if(ai%2==0){
+        console.log(`{$ai} is Even`)
+    }
+    else{
+        console.log(`{$ai} is Odd`)
+    }
+    ai++;
 }
