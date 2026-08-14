@@ -136,8 +136,43 @@ console.log(count)
 // Q1 print n0. till first multiple of 13
 
 for(let i =1;i<101;i++){
+    console.log(i)
     if(i%13==0){
         break;
     }
-    console.log(i);
+    
 }
+
+//Q2 skip the multiples of 3 from 1 to 25;
+
+for(let i=1;i<26;i++){
+    if(i%3==0) continue;
+    console.log(i)
+}
+
+//Q3 print first 5 odd numbers from 1 to 100
+
+// let q3count =0;
+// for(let i=1;i<101;i++){
+//     if(i%2==1){
+//         console.log(i);
+//         q3count++;
+//     }
+//     if(q3count==5) break;
+// }
+
+//Q4 how many digits in a number 
+
+let q4num =487656245;
+let counter=0;
+while(q4num>0){
+ q4num = Math.floor(q4num/10);
+ counter++;
+}
+
+console.log(counter);
+
+//for loop ------> when we have starting , ending or know when to stop and know chnage 
+
+//while loop --------> when we know to stop
+
