@@ -99,18 +99,45 @@ for(let i=1;i<51;i++){
     if(i%3==0){
         console.log(i);
     }
-
+}
 
 //Q8. Take number from user and also tell for 1 to this number is even or odd
 
-let num = prompt("enter any Number");
-let ai=1;
-while(ai<=num){
-    if(ai%2==0){
-        console.log(`{$ai} is Even`)
+// const prompt = require("prompt-sync")();
+
+// let num = prompt("enter any Number");
+// let ai=1;
+// while(ai<=num){
+//     if(ai%2==0){
+//         console.log(`${ai} is Even`);
+//     }
+//     else{
+//         console.log(`${ai} is Odd`);
+//     }
+//     ai++;
+// }
+
+//Q9. Count how many num bers b/w 1 to 100 are divisible by 3 and 5
+
+let q9 =1;
+let count =0;
+while(q9<101){
+    if(q9%3 ==0 && q9%5==0){
+        console.log(`Number ${q9} is divisible by both 3 and 5`)
+        count++;
     }
-    else{
-        console.log(`{$ai} is Odd`)
+    q9++;
+}
+
+console.log(count)
+
+// ================Break and continue questions ===========//
+
+// Q1 print n0. till first multiple of 13
+
+for(let i =1;i<101;i++){
+    if(i%13==0){
+        break;
     }
-    ai++;
+    console.log(i);
 }
