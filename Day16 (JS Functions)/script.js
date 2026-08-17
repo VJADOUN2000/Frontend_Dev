@@ -87,3 +87,14 @@ function abcd(a,b,c,...val){
 }
 
 abcd(34,43,434,65,656,765,7657,657,567,6576,5435,43,32,4234,34);
+
+
+// return matlab jaha se aaye ho wahi daal denge
+
+function name(v1){
+    return 45+ v1;
+}
+
+
+let val=name(65);
+console.log(val)
