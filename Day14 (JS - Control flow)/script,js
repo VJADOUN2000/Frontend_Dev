@@ -30,7 +30,7 @@ function getGrade(score){
 console.log(getGrade(687));
 
 
-//rock paper-scissors logic
+//rock paper-scissors logicA
 
 function rps(user, computer){
     if(user =="rock" && computer =="scissor") return "User Win";

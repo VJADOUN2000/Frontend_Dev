@@ -43,3 +43,23 @@ let num1 = ()=>{
 }
 
 num1();
+
+// =========arguments=======================>
+
+function dance(name){
+    console.log(`${name} is dancing`)
+}
+
+dance("horse");
+dance(`Mouse`);
+dance("Cheel");
+dance("lakadbaggha");
+
+function multipy(v1,v2){  // ---> Perameters
+    console.log(v1 *v2)
+}
+
+multipy(56,65) //--> Arguments
+
+
+
