@@ -122,3 +122,11 @@ function f3(){
 
 f3()();
 
+
+// Practice questions
+
+//Function passed as an argument
+//Create a function calculate that takes two numbers and a function as arguments.
+
+
+
