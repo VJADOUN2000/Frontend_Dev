@@ -98,3 +98,27 @@ function name(v1){
 
 let val=name(65);
 console.log(val)
+
+
+// first class function -> functions ko values ki tarah treat kar sakte hai 
+
+function f1(val){
+ console.log(val());
+}
+
+f1(function (){
+    return 45;
+})
+
+
+// Higher order function -> vo function jo ki return kare function or fir accept kare function as a perimeter is called HOF
+
+
+function f3(){
+    return function(){
+        console.log("This is HOF")
+    }
+}
+
+f3()();
+
