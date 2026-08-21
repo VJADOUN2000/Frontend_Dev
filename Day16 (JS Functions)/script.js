@@ -145,3 +145,5 @@ function test(){
 function addition(){
     a++;
 }
+
+// closures
