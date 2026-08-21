@@ -130,3 +130,18 @@ f3()();
 
 
 
+//pure vs impure Functions
+
+//Aisa function jo baahar ki values ko na badle wo pure function
+
+let a1= 4;
+
+function test(){
+    console.log(a1)
+}
+
+//Aisa function jo baahar kai values ko badle wo hai impure function
+
+function addition(){
+    a++;
+}
