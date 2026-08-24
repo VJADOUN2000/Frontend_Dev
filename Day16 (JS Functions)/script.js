@@ -160,3 +160,17 @@ function abdf(){
 
 abdf()();
 
+//=================lexical scoping========================>
+
+// we can use variable with the limit/ scope / or function we made
+
+function qwe(){
+    let a =78;
+        function ret(){
+            let b =49;  //=====> we can access b 
+            function hjk(){
+                let c=95;
+            }
+    }
+}
+
