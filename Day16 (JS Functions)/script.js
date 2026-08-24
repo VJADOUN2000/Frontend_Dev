@@ -130,6 +130,8 @@ f3()();
 
 
 
+// function declaration can be hoisted but function expression cannot be hoisted 
+
 //pure vs impure Functions
 
 //Aisa function jo baahar ki values ko na badle wo pure function
@@ -146,4 +148,15 @@ function addition(){
     a++;
 }
 
-// closures
+// closures -> ek function jo return kare ek aur function aur return function use karega parent function ka koi variable
+
+function abdf(){
+    let a=75
+    return function (){
+        console.log(a);
+    }
+}
+
+
+abdf()();
+
