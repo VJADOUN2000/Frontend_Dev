@@ -167,10 +167,20 @@ abdf()();
 function qwe(){
     let a =78;
         function ret(){
-            let b =49;  //=====> we can access b 
+            let b =49;  //=====> we can access b after initization or in function ret();
             function hjk(){
-                let c=95;
+                let c=95;  //=====> we can access c in function hjk only not before or after closing of this function.
             }
     }
 }
 
+
+/// IIFE (Immeiately Invoked function Expression)
+
+(function(){
+    console.log("This is IIFE is working");
+})();
+
+
+
+// Hoisting for function declaration and expression 
