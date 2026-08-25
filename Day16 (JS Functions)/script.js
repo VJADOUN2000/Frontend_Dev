@@ -184,3 +184,14 @@ function qwe(){
 
 
 // Hoisting for function declaration and expression 
+
+hoist();
+function hoist(){
+    console.log("This is function declaration and work in hoisting")
+}
+
+hoist2();
+
+let hoist2= function(){
+    console.log("This will not work in hoisting")
+}
