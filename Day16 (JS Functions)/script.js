@@ -190,8 +190,36 @@ function hoist(){
     console.log("This is function declaration and work in hoisting")
 }
 
-hoist2();
+// hoist2();
 
-let hoist2= function(){
-    console.log("This will not work in hoisting")
+// let hoist2= function(){
+//     console.log("This will not work in hoisting")
+// }
+
+//===================Practice Questions==========================>
+
+//Q1 function declaration vs function expression difference in terms of hoisting
+
+// decalaration can be hoisted but not expression
+
+
+
+//Q2. output of code the code
+
+greet();
+
+function greet(){
+    console.log("Greet!");
 }
+
+//Q3. Make this function a fat arrow function
+
+
+function multiply(a,b){
+    // return a * b;
+}
+
+let multiply =(a,b)=>{
+    return a * b;
+}
+
