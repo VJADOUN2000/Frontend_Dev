@@ -271,12 +271,73 @@ total(45,8,4,45,121,65,6,2,213,15,45);
 
 //Q9. fix that function with early return
 
+// function checkAge(age){
+//     if(age>18){
+//         console.log("Allowed");
+//     }
+//     else{
+//         console.log("Not allowed");
+//     }
+// }
+
+// Early return version of above function
+
 function checkAge(age){
-    if(age>18){
-        console.log("Allowed");
+    if(age>18) return "Allowed to Vote";
+    return "Not allowed to vote";
     }
-    else{
-        console.log("Not allowed");
-    }
+console.log(checkAge(27));
+
+//Q10. output of the function
+
+function f(){
+    return;
 }
+
+console.log(f());  //======> will return undefined 
+
+//Q11. what does it mean when we say "functions are first-class citizens"
+
+
+// Simple meaning is function can be treated as a value
+
+
+
+//Q12. Can you assign a function to a variable abd then call it? Show how.
+
+
+let val1 = function(){
+    console.log("This is function usng val1")
+}
+
+val1()
+
+//Q13. Pass a function into another function and execute it inside
+
+// function sup(){
+//     return function(){
+//         console.log("This is function inside a function")
+//     }
+// }
+
+// sup()();
+
+function fun1(val){
+    val();
+}
+
+fun1(function(){
+    console.log("This is function in another function")
+})
+
+
+// Q14. what is Higher order function?
+
+// If a function returns another function or take another function as perameter then it is HOF
+
+
+
+
+
+
 
