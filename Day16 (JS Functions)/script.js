@@ -335,7 +335,56 @@ fun1(function(){
 
 // If a function returns another function or take another function as perameter then it is HOF
 
+function val2(val){
+    val()
+}
 
+val2(function(){
+    console.log("This is HOF Function");
+})
+
+
+//Q15 which is HOF in this code
+
+// [45,84,36].map(function(x){   ///==========> MAp is the HOF 
+//     return x * 2;
+// })
+
+
+//Q16 now on pure and impure function
+
+let tot =0;
+
+function addtotot1(num){
+    tot += num;          //===============> this is impure as it is changing value of variable outside the function scope
+}
+
+
+//Q17. Convert the above function into pure function
+
+let tot1 =0;
+
+function addtotot(num){
+    let newTotal = tot1;
+    newTotal += num;          //===============> Now we make this impure function to pure function in js
+}
+
+addtotot(45);
+
+
+//Q18. What is a closure and How it is created
+
+// Whena a function return another function and it also use variable from parent or outer function then it is closure
+
+
+function clos(){
+    let b= 45
+    return function(){
+        console.log(b)
+    }
+}
+
+clos()();
 
 
 
