@@ -216,10 +216,67 @@ function greet(){
 
 
 function multiply(a,b){
-    // return a * b;
+     return a * b;
 }
 
-let multiply =(a,b)=>{
-    return a * b;
+// let multiply =(a,b)=>{   // let name = ()=>{}
+//     return a * b;
+// }
+
+
+
+//Q4. identify perameter and Arguments
+
+function pera(value){
+    console.log(value);
+}
+
+pera("Vikrant Singh");
+
+
+
+//Q5. sSimple to detect no. of perameter and argument Skip this
+
+//Q6. Guess the output
+
+function name(val="Guest"){
+    console.log(`Hi ${val}`)
+}
+
+name();
+
+
+//Q7.What is ...(Rest operator in JS)
+
+
+function rest(...chacha){
+    console.log(chacha)
+}
+
+rest(4,89,65,12,4,56,1,65,4,41)
+
+
+//Q8. use the rest parameter to accept ant number of scores and return the total
+
+function total(...score){
+    let total = 0
+    for(let i=0;i<score.length;i++){
+        total =total+score[i];
+    }
+
+    console.log(total);
+}
+
+total(45,8,4,45,121,65,6,2,213,15,45);
+
+//Q9. fix that function with early return
+
+function checkAge(age){
+    if(age>18){
+        console.log("Allowed");
+    }
+    else{
+        console.log("Not allowed");
+    }
 }
 
