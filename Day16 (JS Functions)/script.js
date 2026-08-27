@@ -387,6 +387,38 @@ function clos(){
 clos()();
 
 
+//Q20 Convert normal function into IIFE
+
+(function Infinity(){
+    console.log("Initializated");
+})();   // done
+
+
+//21 What is the use of IIFE ? Name any one real application
+
+// It is used in making private variable and which cannot be accessable in code 
+
+//Q22. What wiil be the output and why?
+
+greet();
+
+var greet= function(){
+    console.log("Hi")
+}
+
+// This above code will throw error like greet is not a function
+
+// But for program 
+
+greet();
+
+function greet(){
+    console.log("Hi")
+}
+
+
+
+
 
 
 
