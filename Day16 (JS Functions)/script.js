@@ -416,6 +416,29 @@ function greet(){
     console.log("Hi")
 }
 
+//=========================Some good practice Questions================>
+
+//Q1. Create a BMI calculator 
+
+function BMI(weight,height){
+    return weight/(height*height)
+}
+
+console.log(BMI(71,2.1).toFixed(2))
+
+
+//Q2. Create a reusuable discount calculator (HOF)
+
+function Discount(amount, discount){
+    let dis = amount * (discount/100);
+        return function(){
+            console.log(amount- dis)
+        }
+}
+
+
+Discount(100, 25)();
+
 
 
 
