@@ -440,6 +440,16 @@ function Discount(amount, discount){
 Discount(100, 25)();
 
 
+function DiscountCalculator(discount){
+    return function(price){
+        return price -price * (discount/100)
+    }
+}
+
+let discount = DiscountCalculator(50)
+
+console.log(discount(200));
+
 
 
 
