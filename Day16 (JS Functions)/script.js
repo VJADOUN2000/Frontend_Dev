@@ -478,8 +478,14 @@ function double(val){
 
 console.log(double(75))
 
+// use IIFE to isolate variable
+
+(function(){
+    const password ="Secret key"
+    console.log(password)
+})();
 
 
-
-
+console.log(password);
+''
 
