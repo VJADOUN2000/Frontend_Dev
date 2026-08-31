@@ -451,6 +451,23 @@ let discount = DiscountCalculator(50)
 console.log(discount(200));
 
 
+//similar example but with Counter
+
+function Counter(){
+    let count =0;
+    return function(){
+        count++;
+        return count;
+    }
+}
+
+let c =Counter();
+
+console.log(c());
+console.log(c());
+console.log(c());
+console.log(c());
+
 
 
 
