@@ -503,4 +503,6 @@ function greet(){}
 // const greet2 =()=>{} /// Give errors (TDZ)
 
 
+// difference B/W HOF and closure
 
+// function which return another function or take function as  input (argument)
