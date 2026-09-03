@@ -505,4 +505,5 @@ function greet(){}
 
 // difference B/W HOF and closure
 
-// function which return another function or take function as  input (argument)
+// function which return another function or take function as  input (argument) while closure is also a function which return another function but use variable from higher or parent function in inner function
+
