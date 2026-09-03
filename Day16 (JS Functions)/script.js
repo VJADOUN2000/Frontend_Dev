@@ -480,12 +480,27 @@ console.log(double(75))
 
 // use IIFE to isolate variable
 
-(function(){
-    const password ="Secret key"
-    console.log(password)
-})();
+// (function(){
+//     const password ="Secret key"
+//     console.log(password)
+// })();
 
 
-console.log(password);
-''
+// console.log(password);
+
+// Commenon Confusion on Functions
+//--------------Arrow vs arrow function----------
+
+// we can use arrow function in place of regular function but not only in one consdition ,ie, when there is key value scerienco and function is used in value then we should use regular as (this) keyword will only work with regular function not the fat arrrow function
+
+
+// Function hoisting and TDZ
+
+greet()  //--> Works (hoisting)
+function greet(){}
+
+// greet2()
+// const greet2 =()=>{} /// Give errors (TDZ)
+
+
 
