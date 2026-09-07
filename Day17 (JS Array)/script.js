@@ -8,3 +8,6 @@ let array1 = new Array();  // => Another way of making array
 console.log(array)
 console.log(typeof(array))
 
+let arr5 = [45,85,6,45,121,48]
+
+arr[5]= 78;
