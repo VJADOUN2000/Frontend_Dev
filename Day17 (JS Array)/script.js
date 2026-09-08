@@ -18,3 +18,5 @@ let arr5 = [45,85,6,45,121,48]
 arr5.push(4000);
 
 console.log(arr5)
+
+arr5.pop();
