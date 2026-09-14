@@ -36,7 +36,19 @@ console.log(arr5);
 
 //============Slice=======>
 
-let newarr =arr5.slice(3,6) // starting index of array to ending index of array to remove and ending no. is not included
+let newarr =arr5.slice(0,4) // starting index of array to ending index of array to remove and ending no. is not included
 console.log(newarr);
 
 // it make a copy of orginal array // or change in parent array
+
+arr5.reverse();
+console.log(arr5)
+
+// Sort => Used to sort array in ascending or decending order
+
+let sort= arr5.sort(function(a,b){
+    return a-b;   // Will sort in ascending order
+    // reurn b-a // will sort in decending order
+})
+
+console.log(sort)
