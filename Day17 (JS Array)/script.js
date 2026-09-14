@@ -30,3 +30,13 @@ console.log(arr5);
 arr5.shift();
 console.log(arr5)  // shift-> Remove first value in the array
 
+
+arr5.splice(3,2);  //=> remove value from middle or from certain index mention and like use two value ,i.e, starting index or from where to start remove value and how many value to remove /// Also it make changes in orginal array
+console.log(arr5);
+
+//============Slice=======>
+
+let newarr =arr5.slice(3,6) // starting index of array to ending index of array to remove and ending no. is not included
+console.log(newarr);
+
+// it make a copy of orginal array // or change in parent array
