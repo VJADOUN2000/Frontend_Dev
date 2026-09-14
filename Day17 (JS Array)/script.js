@@ -52,3 +52,24 @@ let sort= arr5.sort(function(a,b){
 })
 
 console.log(sort)
+
+
+
+// ==============ForEach ================>
+arr5.forEach(function(val){
+    console.log(val*2);  //will run for each value in the array  // change in original array
+})
+
+//====================Map=================>
+
+// map sirf jab use karna hai jab apko new array banana hu pichle data kay basis par
+
+// map dikhte he ek blank array bana leya karo
+
+let newarr1 =arr5.map(function(val){
+    if(val>10) return val;  // if no value then it will show undefined
+})
+
+console.log(newarr1);
+
+// when to us eeamp => we we have to create new array from an array and it holds the value of value also then map is used.
