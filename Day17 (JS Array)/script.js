@@ -84,3 +84,13 @@ let newaar7= arr7.filter(function(val){
 })
 
 console.log(newaar7);
+
+//==========Reduce in Array============>
+
+let arr8= [45,45,65,21,45,2032,5,15];
+
+let newarr8 = arr8.reduce(function(acculmulator,val){
+    return acculmulator+ val
+},0)
+
+console.log(newarr8);
