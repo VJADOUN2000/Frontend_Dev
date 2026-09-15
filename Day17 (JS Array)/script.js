@@ -73,3 +73,14 @@ let newarr1 =arr5.map(function(val){
 console.log(newarr1);
 
 // when to us eeamp => we we have to create new array from an array and it holds the value of value also then map is used.
+
+
+//========Filter===============>
+
+let arr7 = [4,65,721,4,5,6,98,2,1,54,5];
+
+let newaar7= arr7.filter(function(val){
+    if(val>4) return true;
+})
+
+console.log(newaar7);
