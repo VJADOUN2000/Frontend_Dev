@@ -105,5 +105,23 @@ let newarrf =arrf.find(function(val){
 
 console.log(newarrf);
 
+// ================Some in array==================>
 
+let marks =[45,98,45,33,65,75,90]
+
+let any =marks.some(function(val){
+    return val>85  // if return true if any value in array is correct or satisfying the condition
+})
+
+console.log(any);
+
+// ==================Every in array===============>
+
+let marks1 =[45,35,78,88,49,65]
+
+let every = marks1.every(function(val){
+    return val>39   // will reture true only when all value is satisfying or meet the condition in array
+})
+
+console.log(every);
 
