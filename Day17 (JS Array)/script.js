@@ -94,3 +94,16 @@ let newarr8 = arr8.reduce(function(acculmulator,val){
 },0)
 
 console.log(newarr8);
+
+//================Find in Array=================>
+
+let arrf =[45,75,65,65,15,4,456,14,87,57,6,8]
+
+let newarrf =arrf.find(function(val){
+    return val ==400;  // will find the val is there if yes then return the first value in array  but if value is not present in array then it return undefined
+})
+
+console.log(newarrf);
+
+
+
