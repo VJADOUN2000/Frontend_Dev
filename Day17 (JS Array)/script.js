@@ -125,3 +125,18 @@ let every = marks1.every(function(val){
 
 console.log(every);
 
+
+// =============Destructuring in Array==================>
+
+let arr =[45,6,244,98,45,35,45]
+
+let [s,b, , , ,c] = arr; // it will save the value in variable from the arr
+
+// ==============spread in array =======================>
+
+let arr4 =[45,8,6,12,8,6,2661,56]
+
+let arr56= [...arr4];  // will copy all value and make new value in new array
+
+
+
