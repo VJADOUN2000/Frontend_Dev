@@ -172,4 +172,20 @@ let numbers = [1,2,3,4]
 numbers.splice(3,1);  // will take 3 as index and remove 1 value from the array
 console.log(numbers)  
 
+//Q6. Add Purple and Red in this array at index 1
 
+let colors = ["Yellow", "Orange"]
+
+colors.splice(1,0,"Red" , "Blue")
+
+console.log(colors);
+
+//Q7. Extract only 3 middle element in array
+
+let num = [5,3,9,7,5,4,2]
+
+let newnum = num.slice(2,5);
+
+console.log(newnum);
+
+//
