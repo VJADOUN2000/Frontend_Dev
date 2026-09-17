@@ -39,7 +39,7 @@ console.log(arr5);
 let newarr =arr5.slice(0,4) // starting index of array to ending index of array to remove and ending no. is not included
 console.log(newarr);
 
-// it make a copy of orginal array // or change in parent array
+// it make a copy of orginal array // or make no change in parent array
 
 arr5.reverse();
 console.log(arr5)
@@ -138,5 +138,38 @@ let arr4 =[45,8,6,12,8,6,2661,56]
 
 let arr56= [...arr4];  // will copy all value and make new value in new array
 
+
+// ==================Practice Questions ======================>
+
+//Q1. create array of fruit and print the second fruit value
+
+let fruit =['apple','guava','banana']
+
+console.log(fruit[1]);
+
+//Q2. add "Mango" at the end and "pinapple" at the satart of this array
+
+fruit.push('Mango');
+fruit.unshift('Pineapple');
+
+console.log(fruit);
+
+//Q3. Replace banana with 'Kiwi' in the above array
+
+idx = fruit.indexOf('banana')
+fruit[idx] ='Kiwi'
+
+console.log(fruit)
+
+// Q4. what is difference between .push() and unshift()?
+
+//.push() add the value at the end of array while .unshift() add the value at the beginning of the array
+
+// Q5. Remove the last element from this array using method
+
+let numbers = [1,2,3,4]
+
+numbers.splice(3,1);  // will take 3 as index and remove 1 value from the array
+console.log(numbers)  
 
 
