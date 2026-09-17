@@ -188,4 +188,100 @@ let newnum = num.slice(2,5);
 
 console.log(newnum);
 
-//
+//Q8. Sort this array alphabetically and then reverse it
+
+let names = ['Aman' , 'Bjay' , 'vishish', 'inash']
+
+names.sort().reverse()
+console.log(names)
+
+//Q9. use .map() to sqare each number
+
+let value =[45,8,621,12,54,62]
+
+let newvalue = value.map(function(val){
+    return val*val
+})
+
+console.log(newvalue)
+
+
+//Q10. Use .filter() to keep no. grater then 10
+
+let num23 =[45,5,8,12,56,48,62,97]
+
+let newnum23 =num23.filter(val=>{
+    return val>11
+})
+
+console.log(newnum23);
+
+//Q11. use .reduce to sum of this array
+
+let arr123 =[10,20,30,40,50]
+
+let newarr123 = arr123.reduce(function(acculmulator,val){
+    return acculmulator+ val
+},0)
+
+console.log(newarr123);
+
+//Q12. use .find() to find the first number less then 10;
+
+let arr45 =[45,13,2,89,13,12,4,3]
+
+let newarr45 = arr45.find(val=>{
+    return val<10;
+})
+
+console.log(newarr45);
+
+//Q13. Use .some to check any student score below then 33;
+
+let arr89 =[45,36,49,29,30,45]
+
+let newarr89 = arr89.some(val=>{
+    return val<33;
+})
+
+console.log(newarr89);
+
+//Q14. use .check() every number is even
+
+let num123 = [14,6,20,40,18,12,4]
+
+let newnum123 =num123.every(function(val){
+    return val %2==0
+})
+
+console.log(newnum123);
+
+//Q15. Destructure this array in firstName and LastName
+
+let name12 =['Vikrant', 'Singh']
+
+let [firstName, LastName] = name12
+
+//Q16. Merge to arrays using spread operator 
+
+let a = [1,2]
+let d =[3,4]
+
+let e = [...a, ...d]  // It will  merge both the array
+
+console.log(e);
+
+//Q17. Add India to this array
+
+let country =['USA', 'Australia']
+
+let updated = ['India', ...country]
+
+
+console.log(updated);
+
+//Q18. Clone this array properly (Not by reference)
+
+let arr789 = [78,56,42,31,95,64]
+
+let newarr789 = [...arr789];  // using spread operator
