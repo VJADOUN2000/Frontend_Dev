@@ -7,3 +7,30 @@ let obj = {
     pincode: 110092
 }
 
+console.log(obj.name)   // can also ude ["name"];
+
+let aa = "city"
+console.log(obj[aa]);  // by using [] brakets aa can change aa to "city" vale
+
+
+//==============Nesting and deep access================>
+
+const user ={                 // Nesting in object
+    name: "vikrant",
+    address: {
+        city: "New Delhi",
+        pin: 110092,
+        location: {
+            lat: 45.2,
+            lng: 58.9,
+        }
+    }
+}
+
+
+console.log(user.address.location.lat)  // deep access
+
+let {lat,lng} = user.address.location;   // use variable to access value in object and deep access too.
+
+
+
