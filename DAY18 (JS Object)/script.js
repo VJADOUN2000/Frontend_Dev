@@ -55,3 +55,12 @@ let obj2={
 
 console.log(Object.keys(obj2))
 
+//==========Object.entries============> make array of array of object
+
+let obj3={
+    name: "Testing2",
+    age: 60,
+    location: "known"
+}
+
+console.log(Object.entries(obj3))
