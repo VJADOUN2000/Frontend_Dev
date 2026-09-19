@@ -64,3 +64,16 @@ let obj3={
 }
 
 console.log(Object.entries(obj3))
+
+// spread operator in object
+
+let obj4 ={...obj3}
+
+console.log(obj4)
+
+//a sloe can use assign to copy object (samw as spread operator)
+
+let obj5 = Object.assign({}, obj1)
+
+
+console.log(obj5)
