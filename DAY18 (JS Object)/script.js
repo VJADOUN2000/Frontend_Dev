@@ -45,4 +45,13 @@ for(let key in obj1){
     console.log(key, obj1[key]);
 }
 
+// ============Object.keys==================> It used used to put all keys in array format
+
+let obj2={
+    name: "Testing",
+    age: 45,
+    location: "unknown"
+}
+
+console.log(Object.keys(obj2))
 
