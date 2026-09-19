@@ -33,4 +33,16 @@ console.log(user.address.location.lat)  // deep access
 let {lat,lng} = user.address.location;   // use variable to access value in object and deep access too.
 
 
+//<======================simple obj sample  for For loop-in obj======================>
+
+let obj1 ={
+    name: "VJ",
+    age: 25,
+    location: "Delhi"
+}
+
+for(let key in obj1){
+    console.log(key, obj1[key]);
+}
+
 
