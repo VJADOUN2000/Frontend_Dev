@@ -104,3 +104,19 @@ console.log(obj6)
 
 console.log(obj6?.address?.city)  //=> it will check if there is address or city in object and if not don't give error message or just give undefined
 
+// computed propertites 
+
+let name ="admin"
+
+
+let obj9={
+    name: "Testing2",
+    age: 60,
+    location: "known",
+    [name]: "Vikrant Singh",  // add key of value of variable and then we add or define its value in object
+}
+
+console.log(obj9)
+
+
+
