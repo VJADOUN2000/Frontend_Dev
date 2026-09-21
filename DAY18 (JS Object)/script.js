@@ -73,7 +73,30 @@ console.log(obj4)
 
 //a sloe can use assign to copy object (samw as spread operator)
 
-let obj5 = Object.assign({}, obj1)
+let obj5 = Object.assign({}, obj1)  // we can also add or add new value by putting value in {} inside this 
 
 
 console.log(obj5)
+
+//Deep clone
+
+
+let obj6={
+    name: "Testing2",
+    age: 60,
+    location: "known",
+    address:{
+        city: "Delhi"
+    }
+}
+
+
+//let obj7 = {...obj6}
+
+obj7.address.city = "Indore";   // it changes city name for both obj7 and obj6
+let obj7 = JSON.parse(JSON.stringify(obj6)) // it will copy all obj value not reference in case of nested objects
+
+
+console.log(obj7)
+console.log(obj6)
+
