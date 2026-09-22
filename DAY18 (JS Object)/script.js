@@ -118,5 +118,43 @@ let obj9={
 
 console.log(obj9)
 
+// ========================Practice=============================>
+
+//Q1. Create object for a student with name, age and isEnrolled
+
+let student ={
+    name: "Vikrant Singh",
+    age: 25,
+    isEnrolled: false
+}
+
+console.log(student)
+
+//Q2.Try if obkect key can be boolean or number  --> It is true and can be true
+
+let obj41 ={
+    true: "test",
+    65: 456
+}
+
+console.log(obj41[true])
+
+// Q3. Acess the value of "First_Name" from given object
+
+let obj46 ={
+    "First_Nmae": "VJ"
+}
+
+console.log(obj46["First_Nmae"])
+
+//Q4 Given dynamic key let key ="age" . How will you access user[key]?
+
+let key = "age";
+
+let obj47 ={
+    age : 25
+}
+
+console.log(obj47[key])  // It will chage key to age as key is variable
 
 
