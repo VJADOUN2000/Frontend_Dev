@@ -178,5 +178,16 @@ const user12 ={
 
 let {"first-Name": FirstName} = user12;
 
+// Use for-in loop in the object
 
+
+let obj78 ={
+    key1: "Testing1",
+    key2: "Testing2",
+    key3: "Testing3"
+}
+
+for(let key in obj78){
+    console.log(key, obj78[key])  // we console all key value
+}
 
