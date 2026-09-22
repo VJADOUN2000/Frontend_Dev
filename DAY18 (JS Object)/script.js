@@ -157,4 +157,26 @@ let obj47 ={
 
 console.log(obj47[key])  // It will chage key to age as key is variable
 
+// Q Destructure the city and lat from the object
+
+let locations = {
+    city: "Delhi",
+    coordinates: {
+        lang: 45.26,
+        lat: 98.544
+    }
+}
+
+let {city} =locations;
+let {lang} = locations.coordinates;
+
+//Q Destructure the key "first-name" as a variable called firstName
+
+const user12 ={
+    "first-Name": "Abhi"
+}
+
+let {"first-Name": FirstName} = user12;
+
+
 
