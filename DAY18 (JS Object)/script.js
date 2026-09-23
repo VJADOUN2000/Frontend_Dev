@@ -191,3 +191,8 @@ for(let key in obj78){
     console.log(key, obj78[key])  // we console all key value
 }
 
+//  Use object.entries to print all key value pair in given object
+
+// Tittle: JavaScript;
+// duration: 4 Weeks
+
