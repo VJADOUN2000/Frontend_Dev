@@ -217,4 +217,13 @@ const person = {}
 
 console.log(person?.info?.name);  // we not give error if not found but give undefined
 
+//Q use variable to dynamically assign a property
 
+let key4 ="role";
+
+const model ={
+    name: "Vikrant",
+    [key4]: "admin"   // will add this in object
+}
+
+console.log(model)
