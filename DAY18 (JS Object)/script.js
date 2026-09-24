@@ -205,3 +205,16 @@ Object.entries(course).forEach(function(val){
     console.log(val[0] + " : " +"val[1]")
 })
 
+
+const obj48 = {a:45, g:78}
+
+const copy ={...obj48};  // will copy value of obj48
+
+
+// Q Rewrite this with optional chaining
+
+const person = {}
+
+console.log(person?.info?.name);  // we not give error if not found but give undefined
+
+
