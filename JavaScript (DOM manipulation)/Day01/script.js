@@ -13,11 +13,19 @@
 // 2. document.queryselector()
 //3. document.getelementsByClassName()
 
-let a = document.getElementsByClassName("adcd") 
-console.log(a)
+// let a = document.getElementsByClassName("adcd") 
+// console.log(a)
 
-let ab = document.querySelector("h1");  //it will slect first element of H1
-console.log(ab.textContent)
+// let ab = document.querySelector("h1");  //it will slect first element of H1
+// console.log(ab.textContent)
 
-let abc = document.querySelectorAll("h1");  //it will slect first element of H1
-console.log(abc)
+// let abc = document.querySelectorAll("h1");  //it will slect first element of H1
+// console.log(abc)
+
+
+let h1 =document.createElement("h1");
+h1.textContent = "Hello this H1 is created by JS!"
+
+console.log(h1);
+
+document.body.append(h1)
