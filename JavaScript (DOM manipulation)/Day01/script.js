@@ -23,5 +23,13 @@ console.log(a)
 // console.log(abc)
 
 // changing content in html like innerText ,textContent and innerHTML
-a.innerHTML = "<i>This is Italic hey hey</i>"   
+let h1 = document.createElement("h1")
+
+h1.textContent = "This is H1 Heading in JS!"
+
+document.body.append(h1)
+
+//document.body.prepend(h1)
+
+
 
