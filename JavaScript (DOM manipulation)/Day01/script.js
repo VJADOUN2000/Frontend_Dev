@@ -43,7 +43,9 @@ document.querySelector("div").prepend(h1)
 
 //h1.remove();  // It will remove h1 element above wala
 
+h1.style.color = "Red"
 
+console.dir(h1)
 
 
 
