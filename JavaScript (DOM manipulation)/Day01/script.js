@@ -35,17 +35,24 @@
 //============Create Element in HTML ===========================>
 
 
-let h1 = document.createElement("h1");
+// let h1 = document.createElement("h1");
 
-h1.textContent ="Hello ji mei baahar se aaya hu";
+// h1.textContent ="Hello ji mei baahar se aaya hu";
 
-document.querySelector("div").prepend(h1)
+// document.querySelector("div").prepend(h1)
 
 //h1.remove();  // It will remove h1 element above wala
 
-h1.style.color = "Red"
+// h1.style.color = "Red"
+// h1.style.fontFamily = "Gilroy";
+// h1.style.textTransform = "Capitalize"
+let h1 = document.querySelector("h1")
 
 console.dir(h1)
 
+h1.classList.add("hulu")  // classlist is used to get access to class atrribute in a html tag
+
+
+h1.classList.toggle("hulu")  // it just act as a switch like if class is apply it remove and vice versa
 
 
