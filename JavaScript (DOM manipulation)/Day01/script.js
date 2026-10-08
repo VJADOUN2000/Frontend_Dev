@@ -79,3 +79,7 @@ h1.classList.toggle("hulu")  // it just act as a switch like if class is apply i
 // Answer 5. in getElementById() you can only select elemnt by id whereas in querySelector you can select id, element, class and even attribute
 // and also no use of # in id in () while in queryselector("#hulu") is required to tell it is id.
 
+//Q6. what does getElementByclassName return? Is IT IS ARRAY
+
+// no, it is not arry it is HTMLCollection 
+
