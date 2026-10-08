@@ -55,4 +55,27 @@ h1.classList.add("hulu")  // classlist is used to get access to class atrribute 
 
 h1.classList.toggle("hulu")  // it just act as a switch like if class is apply it remove and vice versa
 
+// ==========Theroy Questions ====================================>
+    
+//Q1. What is DOM? How does it represent in HTML Structure?
+
+// every html element is like a node and html structure is represent as a tree
+
+//Q2. Name the type of nodes in html tree
+// Document node , Text node, Eelement node, Comment node
+
+
+//Q3. difference between element node vs text node
+
+// Simple example <P>Hello this is sample for example</p>
+
+//element node -> it is actual html tag , it can have children too like <bold>, <i> 
+//Text node -> it is the text inside the tag, It cannot have children 
+
+//Q4. Simple html code for inspecting html code like which is element node and text node in html
+
+//Q5. Difference between getElementById() and querySelector()
+
+// Answer 5. in getElementById() you can only select elemnt by id whereas in querySelector you can select id, element, class and even attribute
+// and also no use of # in id in () while in queryselector("#hulu") is required to tell it is id.
 
