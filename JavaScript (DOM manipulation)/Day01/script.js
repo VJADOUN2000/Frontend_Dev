@@ -83,3 +83,13 @@ h1.classList.toggle("hulu")  // it just act as a switch like if class is apply i
 
 // no, it is not arry it is HTMLCollection 
 
+// Q7. Simple querySelectorAll to select buy-now class in html
+
+//Q8. //T1 Select element by id and change its content
+
+let h2 = document.querySelector("#h")
+
+h2.textContent ="Welcome to sheriyans!"
+
+
+
