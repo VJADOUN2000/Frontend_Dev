@@ -92,4 +92,10 @@ let h2 = document.querySelector("#h")
 h2.textContent ="Welcome to sheriyans!"
 
 
+//Q9. //T2 print all li elements and print their text using loop
 
+let lis = document.querySelectorAll("li")
+
+lis.forEach(function(val){
+    console.log(val.innerText);  // will print all the list text 
+})
