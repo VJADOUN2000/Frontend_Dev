@@ -97,5 +97,5 @@ h2.textContent ="Welcome to sheriyans!"
 let lis = document.querySelectorAll("li")
 
 lis.forEach(function(val){
-    console.log(val.innerText);  // will print all the list text 
+    console.log(val.innerHTML);
 })
