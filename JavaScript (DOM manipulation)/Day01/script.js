@@ -99,3 +99,7 @@ let lis = document.querySelectorAll("li")
 lis.forEach(function(val){
     console.log(val.innerHTML);
 })
+
+for(let k=0;k<lis.length;k++){
+    console.log(lis[k].textContent)
+}
