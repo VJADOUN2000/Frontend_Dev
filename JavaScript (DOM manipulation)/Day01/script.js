@@ -120,11 +120,19 @@ for(let k=0;k<lis.length;k++){
 let p =document.querySelector("p");
 p.innerHTML = "<b>Updated</b> by JavaScript"
 
-//Q10. How do you get the SRC of a image uisng JS?
+//Q10. How do you get the SRC of a image uisng JS?  getAttribute
 
 let img = document.querySelector("img")
 
 //console.log(img.src);
 
 console.log(img.getAttribute("src")) // this is also used to get scr attribute using getAttribute
+
+//Q11. How to change src in html  ---> Using setAttribute
+
+document.querySelector("img").setAttribute("src", "https://images.unsplash.com/photo-1790181397194-ccc0fcfb8565?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D")
+
+// Task 4 Select a link and update its href element
+
+document.querySelector("a").setAttribute("href", "https://www.google.com")
 
