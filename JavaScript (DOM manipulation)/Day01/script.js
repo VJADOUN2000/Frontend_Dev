@@ -119,3 +119,12 @@ for(let k=0;k<lis.length;k++){
 
 let p =document.querySelector("p");
 p.innerHTML = "<b>Updated</b> by JavaScript"
+
+//Q10. How do you get the SRC of a image uisng JS?
+
+let img = document.querySelector("img")
+
+//console.log(img.src);
+
+console.log(img.getAttribute("src")) // this is also used to get scr attribute using getAttribute
+
