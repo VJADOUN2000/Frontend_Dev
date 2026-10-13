@@ -85,14 +85,14 @@ h1.classList.toggle("hulu")  // it just act as a switch like if class is apply i
 
 // Q7. Simple querySelectorAll to select buy-now class in html
 
-//Q8. //T1 Select element by id and change its content
+//T1 Select element by id and change its content
 
 let h2 = document.querySelector("#h")
 
 h2.textContent ="Welcome to sheriyans!"
 
 
-//Q9. //T2 print all li elements and print their text using loop
+//T2 print all li elements and print their text using loop
 
 let lis = document.querySelectorAll("li")
 
@@ -103,3 +103,19 @@ lis.forEach(function(val){
 for(let k=0;k<lis.length;k++){
     console.log(lis[k].textContent)
 }
+
+//Q8. Difference between textContent, innerText & innerHTML
+ 
+// Answer like textContent and innerText is mostly same
+// textContent --> renders all text in html element
+// innerText --> only renders the visible text only
+// innerHTML --> it includes the html tags (HTML structure inside the element.)
+
+//Q9 when to use innerText or textContent
+
+//Task 3 select a paragraph nad  replace it content with:
+
+// <b>Updated</b> by JavaScript
+
+let p =document.querySelector("p");
+p.innerHTML = "<b>Updated</b> by JavaScript"
