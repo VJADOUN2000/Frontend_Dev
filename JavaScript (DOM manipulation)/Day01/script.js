@@ -136,3 +136,17 @@ document.querySelector("img").setAttribute("src", "https://images.unsplash.com/p
 
 document.querySelector("a").setAttribute("href", "https://www.google.com")
 
+//Q12. Add a title sttribute to s div dynamically.
+
+let div = document.querySelector("div");
+
+div.setAttribute("title", "some")  // this will add title attribute to div
+
+//Q13. Remove a disabled attribute from a button
+
+let btn = document.querySelector("button");
+
+btn.removeAttribute("disabled") // this will remove disabled attribute from html
+
+//What does createElement() do? What's returned?
+
