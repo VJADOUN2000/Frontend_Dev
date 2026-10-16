@@ -148,5 +148,16 @@ let btn = document.querySelector("button");
 
 btn.removeAttribute("disabled") // this will remove disabled attribute from html
 
-//What does createElement() do? What's returned?
+//Q14. What does createElement() do? What's returned?
+
+//It create an element in html and return html node 
+
+let h5 = document.createElement("h1");
+
+console.log(h5)
+
+
+//Q15. What the difference between appendChild vs prepend();
+
+//Example if there is 4 child in div or html then appendchild will add the element at the end and vice versa for prepend
 
