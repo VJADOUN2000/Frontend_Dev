@@ -179,3 +179,13 @@ let li =document.createElement("li")
 li.textContent ="Dragon ball Super"
 
 task.appendChild(li)    // this will add the li list in div
+
+//Task 8 --> Create a new image element with a placeholder source and add it at top of div
+
+let img1 = document.createElement("img")
+
+img1.setAttribute("src","https://images.unsplash.com/photo-1791862634202-8bcb1b4bfbcd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D")
+
+img1.classList.add("placeholder")
+
+div.prepend(img1)
