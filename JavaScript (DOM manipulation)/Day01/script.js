@@ -189,3 +189,24 @@ img1.setAttribute("src","https://images.unsplash.com/photo-1791862634202-8bcb1b4
 img1.classList.add("placeholder")
 
 div.prepend(img1)
+
+//Task 9 Select the first item and delete from a DOM
+
+let ul =document.querySelector("ul");
+
+let li =document.querySelector("li")
+
+ul.removeChild(li);   
+
+
+//Q15 how to change backgroundColor of a element 
+
+//Simple example ---> element.style.backgroundColor ="Purple"
+
+//Q16 Waht is the difference b/w classList.add() and classList.toggle()?
+
+//=> classList.add() will only add the class in the element but classList.toggle will add the class if no class is there or remove the class if already present in the element
+
+// Task 10 ---> Add a highlight class to every even item in a list.
+
+
