@@ -161,3 +161,12 @@ console.log(h5)
 
 //Example if there is 4 child in div or html then appendchild will add the element at the end and vice versa for prepend
 
+
+
+//Q16.Can you remove an element using removechild()
+
+let div1 = document.querySelector("div");
+let h9 = document.querySelector("h2")
+
+div1.removeChild(h9);  // this will  remove heading 2 from div 
+
