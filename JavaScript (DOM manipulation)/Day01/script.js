@@ -170,3 +170,12 @@ let h9 = document.querySelector("h2")
 
 div1.removeChild(h9);  // this will  remove heading 2 from div 
 
+// Task  --> Create a new list <li>New Task</li> and add it to the end of a <ul>
+
+let task = document.querySelector("#task")
+
+let li =document.createElement("li")
+
+li.textContent ="Dragon ball Super"
+
+task.appendChild(li)    // this will add the li list in div
