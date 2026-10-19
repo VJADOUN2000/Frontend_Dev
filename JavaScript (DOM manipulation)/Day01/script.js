@@ -230,3 +230,16 @@ p1.forEach(function(element){
     element.style.fontSize = "19px";
 });
 
+
+//=====================Confusion=================================>
+
+//1 innerHTML vs innerContent vs textContent
+
+//innerHTML  => can convert html tag into content or aplly it in element
+
+//innerContent is compartively slower than textContent 
+
+
+//2. Style list vs classList
+
+
