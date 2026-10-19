@@ -192,11 +192,11 @@ div.prepend(img1)
 
 //Task 9 Select the first item and delete from a DOM
 
-let ul =document.querySelector("ul");
+// let ul =document.querySelector("ul");
 
-let li =document.querySelector("li")
+// let li =document.querySelector("li")
 
-ul.removeChild(li);   
+// ul.removeChild(li);   
 
 
 //Q15 how to change backgroundColor of a element 
@@ -208,5 +208,12 @@ ul.removeChild(li);
 //=> classList.add() will only add the class in the element but classList.toggle will add the class if no class is there or remove the class if already present in the element
 
 // Task 10 ---> Add a highlight class to every even item in a list.
+
+let li45 = document.querySelectorAll("ul li:nth-child(2n)");
+
+li45.forEach(function(element){
+    element.classList.add("highlight");
+})
+console.log(li45)
 
 
