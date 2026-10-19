@@ -217,3 +217,16 @@ li45.forEach(function(element){
 console.log(li45)
 
 
+//Task 11 ----> Toogle a class active when clicked (Hinted: use classList.toggle());
+
+
+//Task 12 ---> Set the front size of <p> to 18px using .style
+
+let p1 =document.querySelectorAll("p");
+
+console.log(p);
+
+p1.forEach(function(element){
+    element.style.fontSize = "19px";
+});
+
