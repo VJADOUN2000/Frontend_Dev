@@ -8,7 +8,7 @@
  let h1 = document.querySelector("h1");
 
  h1.addEventListener("dblclick", function(){
-    h1.style.color = "red";
+    h1.innerHTML = "Solo leveling";
  })
 
 
@@ -26,7 +26,13 @@
    p.removeEventListener("click", colorChange);  // => will remove the event cick from p tag
 
 
-   
+   // Input EventListener
+
+let input = document.querySelector("input");
+
+input.addEventListener("input", function(ele){
+   console.log(ele.data)
+})
 
 
 
