@@ -47,5 +47,5 @@ let device = document.querySelector("#device");
 
 select.addEventListener("change", function(dets){
    console.log(dets.target.value)
-   device.textContent = `${dets.target.value}` + " Device Selected"
+   device.textContent = `${dets.target.value} Device Selected `
 })
