@@ -43,6 +43,9 @@ let input = document.querySelector("input");
 
 let select = document.querySelector("select");
 
+let device = document.querySelector("#device");
+
 select.addEventListener("change", function(dets){
    console.log(dets.target.value)
+   device.textContent = `${dets.target.value}` + " Device Selected"
 })
