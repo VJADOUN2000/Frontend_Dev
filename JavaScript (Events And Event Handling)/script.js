@@ -30,9 +30,19 @@
 
 let input = document.querySelector("input");
 
-input.addEventListener("input", function(ele){
-   console.log(ele.data)
+// input.addEventListener("input", function(ele){
+//    if(ele.data!== null){
+//       console.log(ele.data)
+//    }
+// })
+ 
+
+// Change in EventListener
+
+// ye jab chalta hai job input or textarea mei kuck change hojaye
+
+let select = document.querySelector("select");
+
+select.addEventListener("change", function(dets){
+   console.log(dets.target.value)
 })
-
-
-
