@@ -56,14 +56,28 @@
 
 //Approach for taking input from windows and print it in console for now
 
-let h1 =document.querySelector("h1");
+// let h1 =document.querySelector("h1");
 
-window.addEventListener("keydown", function(val){
-   if(val.key===" "){
-      h1.textContent = "Space";
-   }
-   else{
-   h1.textContent = val.key
-   }
-   console.log(val.key);
-}) 
+// window.addEventListener("keydown", function(val){
+//    if(val.key===" "){
+//       h1.textContent = "Space";
+//    }
+//    else{
+//    h1.textContent = val.key
+//    }
+//    console.log(val.key);
+// }) 
+
+//=======================================================//
+
+let btn = document.querySelector("#btn");
+let input = document.querySelector("#input");
+
+btn.addEventListener("click", function(){
+   input.click();
+})
+
+input.addEventListener("change", function(dets){
+   // console.log(dets)
+   btn.textContent = dets.target.files[0].name;
+})
