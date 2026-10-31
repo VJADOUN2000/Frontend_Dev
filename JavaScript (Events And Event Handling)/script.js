@@ -56,6 +56,14 @@
 
 //Approach for taking input from windows and print it in console for now
 
+let h1 =document.querySelector("h1");
+
 window.addEventListener("keydown", function(val){
+   if(val.key===" "){
+      h1.textContent = "Space";
+   }
+   else{
+   h1.textContent = val.key
+   }
    console.log(val.key);
-})
+}) 
