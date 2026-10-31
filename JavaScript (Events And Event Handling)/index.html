@@ -4,14 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events And Event Handling</title>
-    <style>
+    <!-- <style>
         h3{
-            text-transform: capitalize ;
+            text-transform:uppercase ;
+        }
+    </style> -->
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family:'Arial Narrow', Arial, sans-serif;
+        }
+
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+
+        #main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            background-color: #222;
+        }
+
+        h1{
+            color: #555;
+            font-size: 10rem;
+            font-weight: 100;
+            user-select: none;
         }
     </style>
 </head>
 <body>
-    <h1>Apple is Red</h1>
+    <!-- <h1>Apple is Red</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     <input type="text" placeholder="Name">
     <h3 id="device">Select your Device</h3>
@@ -21,7 +51,11 @@
         <option value="poco">Poco</option>
         <option value="iphone">Iphone</option>
         <option value="nokia">Nokia</option>
-    </select>
+    </select> -->
+
+    <div id="main">
+        <h1>Apple</h1>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
